@@ -14,11 +14,11 @@
             <img src="./img/cat-8579018_1280.jpg" alt="Orange cat">
             <h2>Chat orange</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates illo, soluta assumenda nobis adipisci accusantium dolore cum laborum expedita sit. Dolores, omnis esse dolore tempora ipsam id quo quam laudantium.</p>
-            <div x-data="{ open: false }" class="more">
+            <div x-data="{ open: false }" class="more" >
                 <button x-show="!open" x-on:click="open = true">Voir plus</button>
-                <button x-show="open" @click="open = false">Replier</button>
+                <button x-show="open" @click="open = false" x-cloak>Replier</button>
                 
-                <span x-show="open">
+                <span x-show="open" x-transition.opacity x-cloak>
                 <ul>
                     <li>Poid: 4kg</li>
                     <li>Age: 2ans</li>
@@ -34,9 +34,9 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates illo, soluta assumenda nobis adipisci accusantium dolore cum laborum expedita sit. Dolores, omnis esse dolore tempora ipsam id quo quam laudantium.</p>
             <div x-data="{ open: false }" class="more">
                 <button x-show="!open" x-on:click="open = true">Voir plus</button>
-                <button x-show="open" @click="open = false">Replier</button>
+                <button x-show="open" @click="open = false" x-cloak>Replier</button>
                 
-                <span x-show="open">
+                <span x-show="open" x-transition.opacity x-cloak>
                     <ul>
                         <li>Poid: 3kg</li>
                         <li>Age: 1 an</li>
@@ -52,9 +52,9 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates illo, soluta assumenda nobis adipisci accusantium dolore cum laborum expedita sit. Dolores, omnis esse dolore tempora ipsam id quo quam laudantium.</p>
             <div x-data="{ open: false }" class="more">
                 <button x-show="!open" x-on:click="open = true">Voir plus</button>
-                <button x-show="open" @click="open = false">Replier</button>
+                <button x-show="open" @click="open = false" x-cloak>Replier</button>
                 
-                <div x-show="open">
+                <div x-show="open" x-transition.opacity x-cloak>
                 <ul>
                     <li>Poid: 1kg</li>
                     <li>Age: 4mois</li>
@@ -69,9 +69,9 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates illo, soluta assumenda nobis adipisci accusantium dolore cum laborum expedita sit. Dolores, omnis esse dolore tempora ipsam id quo quam laudantium.</p>
             <div x-data="{ open: false }" class="more">
                 <button x-show="!open" x-on:click="open = true">Voir plus</button>
-                <button x-show="open" @click="open = false">Replier</button>
+                <button x-show="open" @click="open = false" x-cloak>Replier</button>
                 
-                <div x-show="open">
+                <div x-show="open" x-transition.opacity x-cloak>
                 <ul>
                     <li>Poid: 4kg</li>
                     <li>Age: 2ans</li>
@@ -87,9 +87,9 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates illo, soluta assumenda nobis adipisci accusantium dolore cum laborum expedita sit. Dolores, omnis esse dolore tempora ipsam id quo quam laudantium.</p>
             <div x-data="{ open: false }" class="more">
                 <button x-show="!open" x-on:click="open = true">Voir plus</button>
-                <button x-show="open" @click="open = false">Replier</button>
+                <button x-show="open" @click="open = false" x-cloak>Replier</button>
                 
-                <div x-show="open">
+                <div x-show="open" x-transition.opacity x-cloak>
                 <ul>
                     <li>Poid: 2kg</li>
                     <li>Age: 5ans</li>
@@ -105,9 +105,9 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates illo, soluta assumenda nobis adipisci accusantium dolore cum laborum expedita sit. Dolores, omnis esse dolore tempora ipsam id quo quam laudantium.</p>
             <div x-data="{ open: false }" class="more">
                 <button x-show="!open" x-on:click="open = true">Voir plus</button>
-                <button x-show="open" @click="open = false">Replier</button>
+                <button x-show="open" @click="open = false" x-cloak>Replier</button>
                 
-                <div x-show="open">
+                <div x-show="open" x-transition.opacity x-cloak>
                 <ul>
                     <li>Poid: 2kg</li>
                     <li>Age: 8ans</li>
